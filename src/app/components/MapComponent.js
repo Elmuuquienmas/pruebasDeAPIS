@@ -22,7 +22,7 @@ export default function MapComponent() {
     loader.load().then(() => {
       if (mapRef.current && !map) {
         const newMap = new window.google.maps.Map(mapRef.current, {
-          center: { lat: -3.745, lng: -38.523 },
+          center: { lat: 28.64148765646425, lng: -106.14824293032346 }, // coordenadas del edificio i de la utch jijiji
           zoom: 10,
         });
 
